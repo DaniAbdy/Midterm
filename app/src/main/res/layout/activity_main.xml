@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/linearLayout"
+        android:layout_width="345dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView106">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="343dp"
+            android:layout_height="206dp"
+            app:srcCompat="@drawable/promotion_image"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="20dp"
+            android:layout_marginHorizontal="20dp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/super_flash_sale"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_50_off"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:layout_marginVertical="90dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/_08" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:layout_marginVertical="90dp"
+            android:layout_marginHorizontal="65dp"
+            android:text="@string/_34" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:layout_marginVertical="90dp"
+            android:layout_marginHorizontal="110dp"
+            android:text="@string/_52" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="158dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_product" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/nike_air_max_270"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/react_eng"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/star"
+            app:tint="@color/yellow" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_299_43"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_24_off"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="158dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_product__1_" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/nike_air_max_270"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/react_eng"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView111"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/star"
+            app:tint="@color/yellow" />
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_299_43"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_24_off"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="158dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <ImageView
+            android:id="@+id/imageView112"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_product__2_" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/nike_air_max_270"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/react_eng"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView123"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/star"
+            app:tint="@color/yellow" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_299_43"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView156"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_24_off"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="158dp"
+        android:layout_height="238dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="133dp"
+            android:layout_height="133dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_product__3_" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/nike_air_max_270"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/react_eng"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/star"
+            app:tint="@color/yellow" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_299_43"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_24_off"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="226dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="6dp"
+            android:layout_height="12dp"
+            android:layout_marginVertical="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/back"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="142dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:text="@string/super_flash_sale"
+            android:textColor="@color/darkblue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView106"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/search"
+        app:tint="@color/gray" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

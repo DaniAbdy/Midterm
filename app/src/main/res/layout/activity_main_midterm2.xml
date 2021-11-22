@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_midterm2_scene"
+    tools:context=".MainMidterm2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="241dp"
+        android:layout_height="412dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="73dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="324dp"
+            android:layout_height="133dp"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_product" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/nike_air_max_270"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/react_eng"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/star"
+            app:tint="@color/yellow" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_299_43"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="13dp"
+            android:layout_weight="1"
+            android:text="@string/_24_off"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Midterm</string>
+    <string name="super_flash_sale">Super Flash Sale</string>
+    <string name="nike_air_max_270">Nike Air Max 270</string>
+    <string name="react_eng">React ENG</string>
+    <string name="_299_43">$299,43</string>
+    <string name="_534_33_24_off">$534,33    24% off</string>
+    <string name="_24_off">24% off</string>
+    <string name="_50_off">50% off</string>
+    <string name="_08">08</string>
+    <string name="_34">34</string>
+    <string name="_52">52</string>
+</resources>
